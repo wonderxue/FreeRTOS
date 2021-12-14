@@ -4,6 +4,6 @@
 #
 
 PROJECT_NAME := xTaskCreate
-EXTRA_COMPONENT_DIRS +=xTaskAbortDelay
+EXTRA_COMPONENT_DIRS +=stream_buffer/xStreamBufferCreate
 include $(IDF_PATH)/make/project.mk
 
