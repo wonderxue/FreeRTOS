@@ -1,0 +1,2 @@
+/home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc libxTaskNotify.a CMakeFiles/__idf_xTaskNotify.dir/xTaskNotify.c.obj
+/home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib libxTaskNotify.a

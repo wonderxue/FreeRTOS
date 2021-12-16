@@ -1,0 +1,2 @@
+/home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-ar qc libxQueueReset.a CMakeFiles/__idf_xQueueReset.dir/xQueueReset.c.obj
+/home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-ranlib libxQueueReset.a
