@@ -1,0 +1,21 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/bootloader/subproject",
+    "build_dir":          "/home/cxk/Desktop/Project/FreeRTOS/build/bootloader",
+    "config_file":        "/home/cxk/Desktop/Project/FreeRTOS/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v4.4-beta1-48-gddc44956bf-dirty",
+    "target":             "esp32c3",
+    "rev":                "",
+    "phy_data_partition": "",
+    "monitor_baud" :      "115200",
+    "monitor_toolprefix": "riscv32-esp-elf-",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/efuse/Kconfig;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp32c3/Kconfig;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_common/Kconfig;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_hw_support/Kconfig;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_system/Kconfig;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/freertos/Kconfig;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/Kconfig;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/log/Kconfig;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/newlib/Kconfig;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/bootloader/Kconfig.projbuild;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/Kconfig.projbuild;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esptool_py/Kconfig.projbuild;/home/cxk/Desktop/ESP/ESP32/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "bootloader", "bootloader_support", "efuse", "esp32c3", "esp_common", "esp_hw_support", "esp_rom", "esp_system", "esptool_py", "freertos", "hal", "log", "main", "micro-ecc", "newlib", "partition_table", "riscv", "soc", "spi_flash", "" ],
+    "build_component_paths" : [ "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/bootloader", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/bootloader_support", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/efuse", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp32c3", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_common", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_hw_support", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_system", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esptool_py", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/freertos", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/log", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/bootloader/subproject/main", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/bootloader/subproject/components/micro-ecc", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/newlib", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/partition_table", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/riscv", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc", "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spi_flash", "" ]
+}
