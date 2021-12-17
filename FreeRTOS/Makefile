@@ -4,6 +4,6 @@
 #
 
 PROJECT_NAME := xTaskCreate
-EXTRA_COMPONENT_DIRS +=stream_buffer/xStreamBufferCreate
+	EXTRA_COMPONENT_DIRS +=stream_buffer/xStreamBufferSetTriggerLevel
 include $(IDF_PATH)/make/project.mk
 
