@@ -119,7 +119,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/usb/cmake_install.cmake")
   include("/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/tinyusb/cmake_install.cmake")
   include("/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/wifi_provisioning/cmake_install.cmake")
-  include("/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/cmake_install.cmake")
+  include("/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueSelectFromSet/cmake_install.cmake")
 
 endif()
 

@@ -92,15 +92,15 @@ esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_ota_ops.c.s: cmake_force
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/flags.make
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj: /home/cxk/Desktop/ESP/ESP32/esp-idf/components/app_update/esp_app_desc.c
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/cxk/Desktop/Project/FreeRTOS/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj"
-	cd /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/app_update && /home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"myProject\" -DPROJECT_VER=\"71116f4-dirty\" $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj -c /home/cxk/Desktop/ESP/ESP32/esp-idf/components/app_update/esp_app_desc.c
+	cd /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/app_update && /home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"myProject\" -DPROJECT_VER=\"4e202ec-dirty\" $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj -c /home/cxk/Desktop/ESP/ESP32/esp-idf/components/app_update/esp_app_desc.c
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i"
-	cd /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/app_update && /home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"myProject\" -DPROJECT_VER=\"71116f4-dirty\" $(C_INCLUDES) $(C_FLAGS) -E /home/cxk/Desktop/ESP/ESP32/esp-idf/components/app_update/esp_app_desc.c > CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i
+	cd /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/app_update && /home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"myProject\" -DPROJECT_VER=\"4e202ec-dirty\" $(C_INCLUDES) $(C_FLAGS) -E /home/cxk/Desktop/ESP/ESP32/esp-idf/components/app_update/esp_app_desc.c > CMakeFiles/__idf_app_update.dir/esp_app_desc.c.i
 
 esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s"
-	cd /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/app_update && /home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"myProject\" -DPROJECT_VER=\"71116f4-dirty\" $(C_INCLUDES) $(C_FLAGS) -S /home/cxk/Desktop/ESP/ESP32/esp-idf/components/app_update/esp_app_desc.c -o CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s
+	cd /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/app_update && /home/cxk/.espressif/tools/riscv32-esp-elf/esp-2021r2-8.4.0/riscv32-esp-elf/bin/riscv32-esp-elf-gcc $(C_DEFINES) -D PROJECT_NAME=\"myProject\" -DPROJECT_VER=\"4e202ec-dirty\" $(C_INCLUDES) $(C_FLAGS) -S /home/cxk/Desktop/ESP/ESP32/esp-idf/components/app_update/esp_app_desc.c -o CMakeFiles/__idf_app_update.dir/esp_app_desc.c.s
 
 # Object files for target __idf_app_update
 __idf_app_update_OBJECTS = \

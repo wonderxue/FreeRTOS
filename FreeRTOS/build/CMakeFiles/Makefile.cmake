@@ -202,7 +202,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "flash_args"
   "flash_args.in"
   "ldgen_libraries.in"
-  "../queues/pcQueueGetName/CMakeLists.txt"
+  "../queue_sets/xQueueSelectFromSet/CMakeLists.txt"
   "../sdkconfig"
   "/usr/share/cmake-3.18/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.18/Modules/CMakeCInformation.cmake"
@@ -352,7 +352,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "esp-idf/usb/CMakeFiles/CMakeDirectoryInformation.cmake"
   "esp-idf/tinyusb/CMakeFiles/CMakeDirectoryInformation.cmake"
   "esp-idf/wifi_provisioning/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "esp-idf/pcQueueGetName/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "esp-idf/xQueueSelectFromSet/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -468,5 +468,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "esp-idf/openssl/CMakeFiles/__idf_openssl.dir/DependInfo.cmake"
   "esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/DependInfo.cmake"
   "esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/DependInfo.cmake"
-  "esp-idf/pcQueueGetName/CMakeFiles/__idf_pcQueueGetName.dir/DependInfo.cmake"
+  "esp-idf/xQueueSelectFromSet/CMakeFiles/__idf_xQueueSelectFromSet.dir/DependInfo.cmake"
   )

@@ -132,7 +132,7 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/openssl/include"
   "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/include"
   "/home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/include"
-  "../queues/pcQueueGetName"
+  "../queue_sets/xQueueSelectFromSet"
   )
 
 # Targets to which this target links.
@@ -206,7 +206,7 @@ set(CMAKE_TARGET_LINKED_INFO_FILES
   "/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/openssl/CMakeFiles/__idf_openssl.dir/DependInfo.cmake"
   "/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/DependInfo.cmake"
   "/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/DependInfo.cmake"
-  "/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/CMakeFiles/__idf_pcQueueGetName.dir/DependInfo.cmake"
+  "/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueSelectFromSet/CMakeFiles/__idf_xQueueSelectFromSet.dir/DependInfo.cmake"
   "/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedtls.dir/DependInfo.cmake"
   "/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
   "/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/mbedtls/mbedtls/library/CMakeFiles/mbedx509.dir/DependInfo.cmake"
