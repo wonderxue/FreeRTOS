@@ -314,6 +314,14 @@ hal/lcd_hal.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_lcd_panel_commands.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.c
+esp_check.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_check.h
+esp_lcd_panel_io.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_lcd_panel_io.h
+esp_lcd_panel_io_interface.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_interface.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_lcd_panel_io_i2c.c
 stdlib.h
 -
@@ -491,6 +499,14 @@ esp_log.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_log.h
 esp_check.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_check.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.c
+esp_check.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_check.h
+esp_lcd_panel_ops.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_lcd_panel_ops.h
+esp_lcd_panel_interface.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_lcd_panel_interface.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_lcd/src/esp_lcd_panel_ssd1306.c
 stdlib.h

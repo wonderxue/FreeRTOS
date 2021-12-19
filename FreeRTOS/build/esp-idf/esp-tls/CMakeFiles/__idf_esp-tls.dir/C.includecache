@@ -6,6 +6,26 @@
 
 #IncludeRegexTransform: 
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.c
+esp_tls_crypto.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.h
+esp_log.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp-tls-crypto/esp_log.h
+esp_err.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp-tls-crypto/esp_err.h
+mbedtls/sha1.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp-tls-crypto/mbedtls/sha1.h
+mbedtls/base64.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp-tls-crypto/mbedtls/base64.h
+wolfssl/ssl.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp-tls-crypto/wolfssl/ssl.h
+wolfssl/wolfcrypt/coding.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp-tls-crypto/wolfssl/wolfcrypt/coding.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp-tls-crypto/esp_tls_crypto.h
+stddef.h
+-
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp-tls/esp_tls.c
 stdio.h
 -
@@ -1010,6 +1030,12 @@ stddef.h
 bignum.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/base64.h
+config.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+stddef.h
+-
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/bignum.h
 config.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
@@ -1184,6 +1210,16 @@ threading.h
 rsa_alt.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/rsa_alt.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1.h
+config.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+stddef.h
+-
+stdint.h
+-
+sha1_alt.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha1_alt.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h
 config.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
@@ -1305,6 +1341,12 @@ sdkconfig.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/port/include/rsa_sign_alt.h
 esp_ds/esp_rsa_sign_alt.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/port/include/esp_ds/esp_rsa_sign_alt.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/port/include/sha1_alt.h
+hal/sha_types.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/port/include/hal/sha_types.h
+soc/soc_caps.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/port/include/soc/soc_caps.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/port/include/sha256_alt.h
 hal/sha_types.h

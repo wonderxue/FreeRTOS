@@ -516,6 +516,14 @@ stdbool.h
 soc/gpio_reg.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s3/rom/soc/gpio_reg.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp_rom_gpio.h
+stdint.h
+-
+stdbool.h
+-
+soc/gpio_pins.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/soc/gpio_pins.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp_rom_sys.h
 sdkconfig.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/sdkconfig.h
@@ -755,6 +763,32 @@ esp_private/esp_wifi_types_private.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/include/esp_private/esp_wifi_types_private.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/include/smartconfig_ack.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/coexist.c
+esp_coexist.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/esp_coexist.h
+esp_coexist_internal.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/esp_coexist_internal.h
+driver/gpio.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/driver/gpio.h
+esp_rom_gpio.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/esp_rom_gpio.h
+hal/gpio_hal.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/hal/gpio_hal.h
+hal/gpio_types.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/hal/gpio_types.h
+soc/gpio_periph.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/soc/gpio_periph.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/lib_printf.c
+stdio.h
+-
+stdlib.h
+-
+esp_log.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/esp_log.h
+esp_attr.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/esp_attr.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_wifi/src/mesh_event.c
 string.h
@@ -1114,6 +1148,20 @@ esp_attr.h
 riscv/csr.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/riscv/csr.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/gpio_ll.h
+soc/soc.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/soc/soc.h
+soc/gpio_periph.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/soc/gpio_periph.h
+soc/gpio_struct.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/soc/gpio_struct.h
+soc/rtc_cntl_reg.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/soc/rtc_cntl_reg.h
+hal/gpio_types.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/hal/gpio_types.h
+stdlib.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/stdlib.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/adc_types.h
 stdbool.h
 -
@@ -1143,6 +1191,18 @@ hal/cpu_ll.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/cpu_types.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/eth_types.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/gpio_hal.h
+soc/gpio_periph.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/soc/gpio_periph.h
+soc/soc_caps.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/soc/soc_caps.h
+hal/gpio_ll.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/hal/gpio_ll.h
+hal/gpio_types.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/hal/gpio_types.h
+soc/rtc_io_reg.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/soc/rtc_io_reg.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/gpio_types.h
 soc/gpio_periph.h
@@ -1555,6 +1615,8 @@ soc.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/soc.h
 uart_reg.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/uart_reg.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/gpio_pins.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/gpio_reg.h
 soc.h

@@ -8,5 +8,5 @@ C_INCLUDES = -I/home/cxk/Desktop/Project/FreeRTOS/build/config -I/home/cxk/Deskt
 
 C_FLAGS = -march=rv32imc -ffunction-sections -fdata-sections -Wall -Werror=all -Wno-error=unused-function -Wno-error=unused-variable -Wno-error=deprecated-declarations -Wextra -Wno-unused-parameter -Wno-sign-compare -ggdb -Wno-error=format= -nostartfiles -Wno-format -Og -fmacro-prefix-map=/home/cxk/Desktop/Project/FreeRTOS=. -fmacro-prefix-map=/home/cxk/Desktop/ESP/ESP32/esp-idf=IDF -fstrict-volatile-bitfields -Wno-error=unused-but-set-variable -fno-jump-tables -fno-tree-switch-conversion -std=gnu99 -Wno-old-style-declaration -D_GNU_SOURCE -DIDF_VER=\"v4.4-beta1-48-gddc44956bf-dirty\" -DESP_PLATFORM -D_POSIX_READER_WRITER_LOCKS
 
-# Custom defines: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="7ce429f-dirty"; PROJECT_NAME="myProject"
+# Custom defines: esp-idf/app_update/CMakeFiles/__idf_app_update.dir/esp_app_desc.c.obj_DEFINES = PROJECT_VER="71116f4-dirty"; PROJECT_NAME="myProject"
 

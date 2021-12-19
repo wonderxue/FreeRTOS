@@ -1396,6 +1396,20 @@ esp_transport_utils.h
 esp_transport_internal.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/tcp_transport/esp_transport_internal.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/tcp_transport/transport_utils.c
+string.h
+-
+ctype.h
+-
+stdlib.h
+-
+stdio.h
+-
+assert.h
+-
+esp_transport_utils.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/tcp_transport/esp_transport_utils.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/tcp_transport/transport_ws.c
 stdlib.h
 -

@@ -854,6 +854,36 @@ assert.h
 spiffs_config.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_config.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_cache.c
+spiffs.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs.h
+spiffs_nucleus.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_check.c
+spiffs.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs.h
+spiffs_nucleus.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_gc.c
+spiffs.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs.h
+spiffs_nucleus.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_hydrogen.c
+spiffs.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs.h
+spiffs_nucleus.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.c
+spiffs.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs.h
+spiffs_nucleus.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs/src/spiffs_nucleus.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/spiffs/spiffs_api.c

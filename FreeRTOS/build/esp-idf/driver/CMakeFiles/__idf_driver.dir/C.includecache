@@ -144,6 +144,14 @@ esp_efuse_rtc_calib.h
 esp_private/gdma.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp32c3/esp_private/gdma.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp32c3/adc2_init_cal.c
+adc2_wifi_private.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp32c3/adc2_wifi_private.h
+hal/adc_hal.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp32c3/hal/adc_hal.h
+esp_private/adc_cali.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp32c3/esp_private/adc_cali.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp32c3/include/driver/adc.h
 driver/adc_common.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp32c3/include/driver/driver/adc_common.h
@@ -351,6 +359,10 @@ esp_private/i2s_platform.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp_private/i2s_platform.h
 sdkconfig.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/sdkconfig.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/adc2_wifi_private.h
+esp_err.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/esp_err.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/adc_common.h
 stdint.h
@@ -568,6 +580,18 @@ driver/gpio.h
 driver/spi_master.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/driver/spi_master.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/sigmadelta.h
+esp_types.h
+-
+soc/soc_caps.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/soc/soc_caps.h
+soc/sigmadelta_periph.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/soc/sigmadelta_periph.h
+driver/gpio.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/driver/gpio.h
+hal/sigmadelta_types.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/hal/sigmadelta_types.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/spi_common.h
 stdint.h
 -
@@ -689,6 +713,14 @@ freertos/FreeRTOS.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/freertos/FreeRTOS.h
 freertos/semphr.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/driver/freertos/semphr.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/esp_private/adc_cali.h
+sdkconfig.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/esp_private/sdkconfig.h
+esp_err.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/esp_private/esp_err.h
+hal/adc_hal.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/esp_private/hal/adc_hal.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/include/esp_private/gdma.h
 stdbool.h
@@ -870,6 +902,16 @@ driver/rtc_cntl.h
 sys/queue.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/sys/queue.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/sdspi_crc.c
+stdint.h
+-
+sdspi_crc.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/sdspi_crc.h
+sdkconfig.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/sdkconfig.h
+esp_rom_crc.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp_rom_crc.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/sdspi_crc.h
 stdint.h
 -
@@ -945,6 +987,24 @@ sdspi_private.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/sdspi_private.h
 sdspi_crc.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/sdspi_crc.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/sigmadelta.c
+esp_log.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp_log.h
+esp_check.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp_check.h
+esp_err.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp_err.h
+driver/sigmadelta.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/driver/sigmadelta.h
+esp_heap_caps.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp_heap_caps.h
+hal/sigmadelta_hal.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/hal/sigmadelta_hal.h
+hal/gpio_hal.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/hal/gpio_hal.h
+esp_rom_gpio.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/esp_rom_gpio.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/driver/spi_bus_lock.c
 freertos/FreeRTOS.h
@@ -1718,6 +1778,10 @@ ets_sys.h
 rsa_pss.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s3/rom/rsa_pss.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp_rom_crc.h
+stdint.h
+-
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp_rom_gpio.h
 stdint.h
 -
@@ -2136,6 +2200,18 @@ hal/misc.h
 soc/rmt_struct.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/soc/rmt_struct.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/sigmadelta_ll.h
+stdbool.h
+-
+hal/misc.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/hal/misc.h
+soc/sigmadelta_periph.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/soc/sigmadelta_periph.h
+soc/gpio_sd_struct.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/soc/gpio_sd_struct.h
+hal/sigmadelta_types.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/hal/sigmadelta_types.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/esp32c3/include/hal/spi_ll.h
 stdlib.h
 -
@@ -2337,6 +2413,18 @@ hal/rtc_io_ll.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/hal/rtc_io_ll.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/rtc_io_types.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/sigmadelta_hal.h
+soc/sigmadelta_periph.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/soc/sigmadelta_periph.h
+hal/sigmadelta_types.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/hal/sigmadelta_types.h
+hal/sigmadelta_ll.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/hal/sigmadelta_ll.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/sigmadelta_types.h
+soc/soc_caps.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/soc/soc_caps.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/spi_hal.h
 hal/spi_ll.h
@@ -2577,6 +2665,12 @@ stdint.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/gpio_reg.h
 soc.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/soc.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/gpio_sd_reg.h
+soc.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/soc.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/gpio_sd_struct.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/esp32c3/include/soc/gpio_sig_map.h
 
@@ -2853,6 +2947,16 @@ soc/rtc_cntl_reg.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/include/soc/soc/rtc_cntl_reg.h
 soc/soc_caps.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/include/soc/soc/soc_caps.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/include/soc/sigmadelta_periph.h
+stdint.h
+-
+soc/soc_caps.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/include/soc/soc/soc_caps.h
+soc/gpio_sd_reg.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/include/soc/soc/gpio_sd_reg.h
+soc/gpio_sd_struct.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/include/soc/soc/gpio_sd_struct.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/soc/include/soc/soc_memory_types.h
 stdlib.h

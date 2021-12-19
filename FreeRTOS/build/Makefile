@@ -1619,17 +1619,17 @@ __idf_wifi_provisioning/fast:
 .PHONY : __idf_wifi_provisioning/fast
 
 #=============================================================================
-# Target rules for targets named __idf_xQueueReset
+# Target rules for targets named __idf_pcQueueGetName
 
 # Build rule for target.
-__idf_xQueueReset: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_xQueueReset
-.PHONY : __idf_xQueueReset
+__idf_pcQueueGetName: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 __idf_pcQueueGetName
+.PHONY : __idf_pcQueueGetName
 
 # fast build rule for target.
-__idf_xQueueReset/fast:
-	$(MAKE) $(MAKESILENT) -f esp-idf/xQueueReset/CMakeFiles/__idf_xQueueReset.dir/build.make esp-idf/xQueueReset/CMakeFiles/__idf_xQueueReset.dir/build
-.PHONY : __idf_xQueueReset/fast
+__idf_pcQueueGetName/fast:
+	$(MAKE) $(MAKESILENT) -f esp-idf/pcQueueGetName/CMakeFiles/__idf_pcQueueGetName.dir/build.make esp-idf/pcQueueGetName/CMakeFiles/__idf_pcQueueGetName.dir/build
+.PHONY : __idf_pcQueueGetName/fast
 
 project_elf_src_esp32c3.obj: project_elf_src_esp32c3.c.obj
 
@@ -1762,6 +1762,7 @@ help:
 	@echo "... __idf_nghttp"
 	@echo "... __idf_nvs_flash"
 	@echo "... __idf_openssl"
+	@echo "... __idf_pcQueueGetName"
 	@echo "... __idf_protobuf-c"
 	@echo "... __idf_protocomm"
 	@echo "... __idf_pthread"
@@ -1777,7 +1778,6 @@ help:
 	@echo "... __idf_wear_levelling"
 	@echo "... __idf_wifi_provisioning"
 	@echo "... __idf_wpa_supplicant"
-	@echo "... __idf_xQueueReset"
 	@echo "... mbedcrypto"
 	@echo "... mbedtls"
 	@echo "... mbedx509"

@@ -649,10 +649,10 @@
 /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/wifi_provisioning/CMakeFiles/rebuild_cache.dir
 /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/wifi_provisioning/CMakeFiles/edit_cache.dir
 /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir
-/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueReset/CMakeFiles/install/strip.dir
-/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueReset/CMakeFiles/install/local.dir
-/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueReset/CMakeFiles/install.dir
-/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueReset/CMakeFiles/list_install_components.dir
-/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueReset/CMakeFiles/rebuild_cache.dir
-/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueReset/CMakeFiles/edit_cache.dir
-/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueReset/CMakeFiles/__idf_xQueueReset.dir
+/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/CMakeFiles/install/strip.dir
+/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/CMakeFiles/install/local.dir
+/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/CMakeFiles/install.dir
+/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/CMakeFiles/list_install_components.dir
+/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/CMakeFiles/rebuild_cache.dir
+/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/CMakeFiles/edit_cache.dir
+/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/CMakeFiles/__idf_pcQueueGetName.dir

@@ -400,6 +400,14 @@ ets_sys.h
 rsa_pss.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32/rom/rsa_pss.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32/rom/sha.h
+stdint.h
+-
+stdbool.h
+-
+stddef.h
+-
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32c3/rom/ets_sys.h
 stdint.h
 -
@@ -431,6 +439,14 @@ ets_sys.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32c3/rom/ets_sys.h
 rsa_pss.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32c3/rom/rsa_pss.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32c3/rom/sha.h
+stdint.h
+-
+stdbool.h
+-
+ets_sys.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32c3/rom/ets_sys.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32h2/rom/ets_sys.h
 stdint.h
@@ -464,6 +480,14 @@ ets_sys.h
 rsa_pss.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32h2/rom/rsa_pss.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32h2/rom/sha.h
+stdint.h
+-
+stdbool.h
+-
+ets_sys.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32h2/rom/ets_sys.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s2/rom/ets_sys.h
 stdint.h
 -
@@ -496,6 +520,14 @@ ets_sys.h
 rsa_pss.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s2/rom/rsa_pss.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s2/rom/sha.h
+stdint.h
+-
+stdbool.h
+-
+ets_sys.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s2/rom/ets_sys.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s3/rom/ets_sys.h
 stdint.h
 -
@@ -527,6 +559,14 @@ ets_sys.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s3/rom/ets_sys.h
 rsa_pss.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s3/rom/rsa_pss.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s3/rom/sha.h
+stdint.h
+-
+stdbool.h
+-
+ets_sys.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s3/rom/ets_sys.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp_rom_crc.h
 stdint.h
@@ -695,6 +735,22 @@ esp_core_dump_port.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/esp_core_dump_port.h
 esp_core_dump_common.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/esp_core_dump_common.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/core_dump_checksum.c
+stddef.h
+-
+esp_core_dump_port_impl.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/esp_core_dump_port_impl.h
+esp_core_dump_types.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/esp_core_dump_types.h
+core_dump_checksum.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/core_dump_checksum.h
+esp_attr.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/esp_attr.h
+esp_rom_crc.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/esp_rom_crc.h
+mbedtls/sha256.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/mbedtls/sha256.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/espcoredump/src/core_dump_common.c
 string.h
@@ -1098,6 +1154,20 @@ soc/gpio_periph.h
 soc/soc_caps.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/soc/soc_caps.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/sha_types.h
+sdkconfig.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/sdkconfig.h
+esp32/rom/sha.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/esp32/rom/sha.h
+esp32s2/rom/sha.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/esp32s2/rom/sha.h
+esp32s3/rom/sha.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/esp32s3/rom/sha.h
+esp32c3/rom/sha.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/esp32c3/rom/sha.h
+esp32h2/rom/sha.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/esp32h2/rom/sha.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/hal/include/hal/spi_flash_types.h
 esp_types.h
 -
@@ -1177,6 +1247,30 @@ esp_log_internal.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/log/include/esp_log_internal.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/log/include/esp_log_internal.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h
+limits.h
+-
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+check_config.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/check_config.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256.h
+config.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/config.h
+stddef.h
+-
+stdint.h
+-
+sha256_alt.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/mbedtls/include/mbedtls/sha256_alt.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/port/include/sha256_alt.h
+hal/sha_types.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/port/include/hal/sha_types.h
+soc/soc_caps.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/mbedtls/port/include/soc/soc_caps.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/newlib/platform_include/assert.h
 sdkconfig.h

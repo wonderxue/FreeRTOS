@@ -182,8 +182,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/cxk/Desktop/ESP/ESP32/esp-idf/tools/cmake/version.cmake"
   "/home/cxk/Desktop/ESP/ESP32/esp-idf/tools/kconfig_new/confgen.py"
   "/home/cxk/Desktop/ESP/ESP32/esp-idf/tools/kconfig_new/config.env.in"
-  "../.git/HEAD"
-  "../.git/refs/heads/master"
+  "/home/cxk/Desktop/Project/.git/HEAD"
+  "/home/cxk/Desktop/Project/.git/refs/heads/master"
   "../CMakeLists.txt"
   "CMakeFiles/3.18.4/CMakeASMCompiler.cmake"
   "CMakeFiles/3.18.4/CMakeCCompiler.cmake"
@@ -202,7 +202,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "flash_args"
   "flash_args.in"
   "ldgen_libraries.in"
-  "../queues/xQueueReset/CMakeLists.txt"
+  "../queues/pcQueueGetName/CMakeLists.txt"
   "../sdkconfig"
   "/usr/share/cmake-3.18/Modules/CMakeASMInformation.cmake"
   "/usr/share/cmake-3.18/Modules/CMakeCInformation.cmake"
@@ -352,7 +352,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "esp-idf/usb/CMakeFiles/CMakeDirectoryInformation.cmake"
   "esp-idf/tinyusb/CMakeFiles/CMakeDirectoryInformation.cmake"
   "esp-idf/wifi_provisioning/CMakeFiles/CMakeDirectoryInformation.cmake"
-  "esp-idf/xQueueReset/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "esp-idf/pcQueueGetName/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -468,5 +468,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "esp-idf/openssl/CMakeFiles/__idf_openssl.dir/DependInfo.cmake"
   "esp-idf/spiffs/CMakeFiles/__idf_spiffs.dir/DependInfo.cmake"
   "esp-idf/wifi_provisioning/CMakeFiles/__idf_wifi_provisioning.dir/DependInfo.cmake"
-  "esp-idf/xQueueReset/CMakeFiles/__idf_xQueueReset.dir/DependInfo.cmake"
+  "esp-idf/pcQueueGetName/CMakeFiles/__idf_pcQueueGetName.dir/DependInfo.cmake"
   )

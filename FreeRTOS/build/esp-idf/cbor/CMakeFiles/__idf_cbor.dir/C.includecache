@@ -36,6 +36,14 @@ stdlib.h
 string.h
 -
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/cbor/tinycbor/src/cborencoder_close_container_checked.c
+cbor.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/cbor/tinycbor/src/cbor.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/cbor/tinycbor/src/cborerrorstrings.c
+cbor.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/cbor/tinycbor/src/cbor.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/cbor/tinycbor/src/cborinternal_p.h
 compilersupport_p.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/cbor/tinycbor/src/compilersupport_p.h
@@ -80,6 +88,14 @@ utf8_p.h
 inttypes.h
 -
 string.h
+-
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/cbor/tinycbor/src/cborpretty_stdio.c
+cbor.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/cbor/tinycbor/src/cbor.h
+stdarg.h
+-
+stdio.h
 -
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/cbor/tinycbor/src/cbortojson.c

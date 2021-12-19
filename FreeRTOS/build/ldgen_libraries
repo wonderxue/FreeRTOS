@@ -67,4 +67,4 @@
 /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/openssl/libopenssl.a
 /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/spiffs/libspiffs.a
 /home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/wifi_provisioning/libwifi_provisioning.a
-/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/xQueueReset/libxQueueReset.a
+/home/cxk/Desktop/Project/FreeRTOS/build/esp-idf/pcQueueGetName/libpcQueueGetName.a

@@ -1046,6 +1046,10 @@ lwip/inet.h
 esp_wifi.h
 -
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_config.pb-c.c
+wifi_config.pb-c.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_config.pb-c.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_config.pb-c.h
 protobuf-c/protobuf-c.h
 -
@@ -1054,9 +1058,17 @@ constants.pb-c.h
 wifi_constants.pb-c.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_constants.pb-c.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_constants.pb-c.c
+wifi_constants.pb-c.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_constants.pb-c.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_constants.pb-c.h
 protobuf-c/protobuf-c.h
 -
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.c
+wifi_scan.pb-c.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/wifi_provisioning/proto-c/wifi_scan.pb-c.h
 protobuf-c/protobuf-c.h

@@ -718,6 +718,10 @@ nvs_platform.hpp
 nvs_handle.hpp
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_handle.hpp
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_item_hash_list.cpp
+nvs_item_hash_list.hpp
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_item_hash_list.hpp
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_item_hash_list.hpp
 nvs.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs.h
@@ -725,6 +729,16 @@ nvs_types.hpp
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_types.hpp
 intrusive_list.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/intrusive_list.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_page.cpp
+nvs_page.hpp
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_page.hpp
+esp_rom_crc.h
+-
+cstdio
+-
+cstring
+-
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_page.hpp
 nvs.h
@@ -750,6 +764,10 @@ nvs_item_hash_list.hpp
 partition.hpp
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/partition.hpp
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_pagemanager.cpp
+nvs_pagemanager.hpp
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_pagemanager.hpp
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_pagemanager.hpp
 memory
 -
@@ -764,6 +782,12 @@ partition.hpp
 intrusive_list.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/intrusive_list.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_partition.cpp
+cstdlib
+-
+nvs_partition.hpp
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_partition.hpp
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_partition.hpp
 esp_partition.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/esp_partition.h
@@ -771,6 +795,14 @@ intrusive_list.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/intrusive_list.h
 partition.hpp
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/partition.hpp
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_partition_lookup.cpp
+esp_partition.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/esp_partition.h
+nvs_partition_lookup.hpp
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_partition_lookup.hpp
+nvs_encrypted_partition.hpp
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_encrypted_partition.hpp
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_partition_lookup.hpp
 esp_err.h
@@ -806,6 +838,14 @@ freertos/FreeRTOS.h
 freertos/semphr.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/freertos/semphr.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_storage.cpp
+nvs_storage.hpp
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_storage.hpp
+map
+-
+sstream
+-
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_storage.hpp
 memory
 -
@@ -821,6 +861,12 @@ nvs_pagemanager.hpp
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_pagemanager.hpp
 partition.hpp
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/partition.hpp
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_types.cpp
+nvs_types.hpp
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_types.hpp
+esp_rom_crc.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/esp_rom_crc.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/nvs_flash/src/nvs_types.hpp
 cstdint

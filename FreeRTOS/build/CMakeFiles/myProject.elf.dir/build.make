@@ -171,7 +171,7 @@ myProject.elf: esp-idf/mqtt/libmqtt.a
 myProject.elf: esp-idf/openssl/libopenssl.a
 myProject.elf: esp-idf/spiffs/libspiffs.a
 myProject.elf: esp-idf/wifi_provisioning/libwifi_provisioning.a
-myProject.elf: esp-idf/xQueueReset/libxQueueReset.a
+myProject.elf: esp-idf/pcQueueGetName/libpcQueueGetName.a
 myProject.elf: esp-idf/unity/libunity.a
 myProject.elf: esp-idf/wear_levelling/libwear_levelling.a
 myProject.elf: esp-idf/protocomm/libprotocomm.a

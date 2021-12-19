@@ -6,6 +6,34 @@
 
 #IncludeRegexTransform: 
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/argtable3/argtable3.h
+stdio.h
+-
+time.h
+-
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/commands.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+sys/param.h
+-
+esp_log.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/esp_log.h
+esp_console.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/esp_console.h
+esp_system.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/esp_system.h
+linenoise/linenoise.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/linenoise/linenoise.h
+argtable3/argtable3.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/argtable3/argtable3.h
+sys/queue.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/sys/queue.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/esp_console.h
 stddef.h
 -
@@ -46,6 +74,36 @@ driver/uart.h
 driver/usb_serial_jtag.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/driver/usb_serial_jtag.h
 linenoise/linenoise.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/linenoise/linenoise.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/linenoise/linenoise.c
+unistd.h
+-
+stdlib.h
+-
+stdio.h
+-
+stdio_ext.h
+-
+errno.h
+-
+string.h
+-
+stdlib.h
+-
+ctype.h
+-
+sys/stat.h
+-
+sys/types.h
+-
+sys/fcntl.h
+-
+unistd.h
+-
+assert.h
+-
+linenoise.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/linenoise/linenoise.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/console/linenoise/linenoise.h
@@ -618,6 +676,8 @@ stdlib.h
 stdint.h
 -
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/newlib/platform_include/errno.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/newlib/platform_include/esp_newlib.h
 sys/reent.h
 -
@@ -645,6 +705,8 @@ _ansi.h
 -
 sys/types.h
 -
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/newlib/platform_include/time.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/riscv/include/riscv/csr.h
 stdint.h

@@ -15,7 +15,7 @@ void task1()
     vTaskDelay(500/portTICK_PERIOD_MS);
     printf("%d messages left\n",uxQueueMessagesWaiting(xq2));
     xQueueReset(xq2);
-    printf("%d messages left\n",uxQueueMessagesWaiting(xq2));
+    printf("%d messages left\n",uxQueueMessagesWaiting(xq2)); 
     while (1)
     {
         printf("task 11111\n");

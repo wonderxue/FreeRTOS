@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/cxx/cxx_exception_stubs.cpp
+cstdlib
+-
+cstdio
+-
+exception
+-
+bits/functexcept.h
+-
+sdkconfig.h
+-
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/cxx/cxx_guards.cpp
 stdlib.h
 -

@@ -382,6 +382,12 @@ esp_timer.h
 sdkconfig.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_pm/sdkconfig.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_pm/pm_trace.c
+esp_private/pm_trace.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_pm/esp_private/pm_trace.h
+driver/gpio.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_pm/driver/gpio.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32/rom/ets_sys.h
 stdint.h
 -

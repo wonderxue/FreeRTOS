@@ -130,10 +130,18 @@ stdint.h
 stdbool.h
 -
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32c3/rom/rom_layout.h
+stdint.h
+-
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32h2/rom/ets_sys.h
 stdint.h
 -
 stdbool.h
+-
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32h2/rom/rom_layout.h
+stdint.h
 -
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s2/rom/ets_sys.h
@@ -151,6 +159,10 @@ stdbool.h
 -
 soc/soc.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s3/rom/soc/soc.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp32s3/rom/rom_layout.h
+stdint.h
+-
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/esp_rom/include/esp_rom_sys.h
 sdkconfig.h
@@ -506,6 +518,18 @@ multi_heap_platform.h
 sys/queue.h
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/sys/queue.h
 
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/heap_tlsf.c
+multi_heap_config.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/multi_heap_config.h
+multi_heap.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/multi_heap.h
+multi_heap_internal.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/multi_heap_internal.h
+heap_tlsf_config.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/heap_tlsf_config.h
+heap_tlsf.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/heap_tlsf.h
+
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/heap_tlsf.h
 assert.h
 -
@@ -631,6 +655,40 @@ freertos/task.h
 -
 assert.h
 -
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp32c3/memory_layout.c
+stdint.h
+-
+stdlib.h
+-
+esp_attr.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp32c3/esp_attr.h
+sdkconfig.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp32c3/sdkconfig.h
+soc/soc.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp32c3/soc/soc.h
+heap_memory_layout.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp32c3/heap_memory_layout.h
+esp_heap_caps.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp32c3/esp_heap_caps.h
+
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/memory_layout_utils.c
+stdint.h
+-
+string.h
+-
+sdkconfig.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/sdkconfig.h
+esp_log.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp_log.h
+soc/soc_memory_layout.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/soc/soc_memory_layout.h
+esp32c3/rom/rom_layout.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp32c3/rom/rom_layout.h
+esp32s3/rom/rom_layout.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp32s3/rom/rom_layout.h
+esp32h2/rom/rom_layout.h
+/home/cxk/Desktop/ESP/ESP32/esp-idf/components/heap/port/esp32h2/rom/rom_layout.h
 
 /home/cxk/Desktop/ESP/ESP32/esp-idf/components/log/include/esp_log.h
 stdint.h
